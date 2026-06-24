@@ -39,7 +39,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-
 /* HERO SECTION */
 
 #accueil {
@@ -70,6 +69,7 @@ nav ul li a {
 }
 
 .hero-image {
+  padding-top: 60%;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -304,7 +304,6 @@ footer {
 /* ========================= */
 
 @media (max-width: 768px) {
-
   #accueil {
     min-height: auto;
     padding: 40px 20px 80px;
@@ -315,7 +314,7 @@ footer {
     gap: 30px;
   }
 
-  .hero-text{
+  .hero-text {
     width: 100%;
   }
 
@@ -326,7 +325,7 @@ footer {
     gap: 15px;
   }
 
-  .hero-image{
+  .hero-image {
     margin-top: 20px;
   }
 
@@ -335,13 +334,11 @@ footer {
     height: 200px;
   }
 
-  #apropos{
+  #apropos {
     padding-top: 40px;
   }
-
 }
 
-
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
